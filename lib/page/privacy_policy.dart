@@ -8,7 +8,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(
-          'Privacy Policy',
+          'Privasy Policy',
           style: TextStyle(color: Colors.black),
         ),
         centerTitle: true,
@@ -23,64 +23,29 @@ class PrivacyPolicyScreen extends StatelessWidget {
 
   static const _PRIVACY_POLICY = """
 
-Sabin Bajracharya built the Todo app as a Free app. This SERVICE is provided by Sabin Bajracharya at no cost and is intended for use as is.
+This privacy policy ("Policy") informs you of practices when handling your Information through the Services (both as defined below). In this Policy, "Doist", "we" or "us" refers to Doist Inc., a company registered in Delaware with its registered address located at 251 Little Falls Drive, Wilmington, DE 19808. We are the data controller under the applicable privacy laws.
+For the purpose of this Policy, "Information"means any information relating to an identified or identifiable individual. This includes Information you provide or generated when you use: (a) our apps, including Todoist and Twist (each an "App"and collectively the "Apps"); and (b) ddd.com and any other dedicated Doist websites, such as gggghhh.com and twidd.com which link to this policy ("Website"and together with the "Apps"the "Services"). When you use the Services, you accept and understand we collect, process, use and store your Information as described in this Policy. If you do not agree with this Policy, you must not use any of the Services. If you change your mind in the future, you must stop using the Services and you may exercise your rights in relation to your Information as set out in this Policy.
+1. Information we collect
+We will collect and use the following Information about you:
+ • Information you provide to us
+ • Registration information : for example, when you create an account on the Website, you will be asked to provide your name, job title, email, phone number, VAT ID and a password. For Todoist Pro, Todoist Business, or Twist Unlimited customers, which are paid Services, we also collect your billing address, transaction information, tax identification number, Stripe identification number, mobile phone number and invoice address ("Payment Information").
+ • Information collected via voluntary activities: for example, when you communicate with us via email, or participate in surveys, we ask you to provide your email address and any Information you choose to provide to allow us to assist you.The Information we collect from you varies depending on the survey, but we typically ask you questions about your interests and habits, your opinion about different products and services and what you‘d like to be offered in the future. We also collect your ratings, opinions, preferences, questions, pictures, and responses associated with that survey.
+ • Information we automatically collect or is generated about you when use the Services
+ • Identifiers, such as your IP address, device ID, and device information (such as model, brand and operating system).
+ • Geolocation information, such as your GPS information when you use the location reminder feature of the Services. Where required, we will obtain your consent prior to collecting such information.
+ • Cookies: we use cookies and other similar technologies ("Cookies") to enhance your experience when using the Services. For more information about our Cookies policy, see below How We Use Cookies and Similar Technologies section.
+ • Information you generate when using the Services: You may provide Information as part of your use of the Services, including any information you provide when sending messages through the Services. Also, if you choose to share and collaborate on a task with your co-workers or friends, we will collect the email address of your co-workers or friends.
+Please make sure you have permission from your co-workers or friends before sharing Information referring to your co-workers or friends with us. Additionally, for the use of Twist or Twist Unlimited, please make sure you have all permissions and rights to upload the Information required on Twist.
+ • Information regarding your use of the Services , such as app use information, interactions with our team, and transaction records.
+ • Information received from third parties.
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
-
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
-
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Todo unless otherwise defined in this Privacy Policy.
-
-**Information Collection and Use**
-
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
-
-The app does use third party services that may collect information used to identify you.
-
-Link to privacy policy of third party service providers used by the app
-
-*   [Firebase Analytics](https://firebase.google.com/policies/analytics)
-
-**Log Data**
-
-I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
-
-**Cookies**
-
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
-
-This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
-
-**Service Providers**
-
-I may employ third-party companies and individuals due to the following reasons:
-
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
-
-I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
-
-**Security**
-
-I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
-
-**Links to Other Sites**
-
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
-
-**Children’s Privacy**
-
-These Services do not address anyone under the age of 13\. I do not knowingly collect personally identifiable information from children under 13\. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
-
-**Changes to This Privacy Policy**
-
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
-
-**Contact Us**
-
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at birqueens@gmail.com
+ • Information we receive from third party platforms: when you register through a third party account (such as Facebook or Google) or when you connect other apps to our Services (such as Slack and Dropbox), we receive Information which may include your username, email address, and profile picture.
+ • Information from platforms our Services relies on , such as for transaction information and payment verification.
+Children
+Our Services are not targeted at children, and we do not knowingly collect Information from children under the age of 13. If you learn that a child has provided us with Information in violation of this Policy, please contact us as indicated below.
+2. How we use your personal information
+We use your Information to: Provide you with the Services. We will use your Information to perform our contractual obligation towards you to allow you to create an account and use the Services. The Information we process when doing so includes your registration information, information you provide to us when using the Services, identifiers, information you generate when using the Services, and information regarding your use of the Services such as transaction information. We also use your Information when you activate certain features of the Services, such as your Geolocation information when you use the location reminder feature. If you are a user of Todoist Pro, Todoist Business and Twist Unlimited, we will use your Payment Information for payment processing purposes as well as sales tax collection and reporting as required by law.
+ • Improve and monitor the Services. It is in our legitimate interests to improve our Services for our customers. When doing so, we may collect information we automatically collect or is generated about you when you use the Services, as well as non-personal information about your device such as device manufacturer, model and operating system, and the amount of free space on your device.
 """;
 
 }

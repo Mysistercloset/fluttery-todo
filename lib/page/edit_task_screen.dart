@@ -140,25 +140,16 @@ class _EditCardScreenState extends State<EditTaskScreen> {
                 backgroundColor: taskColor,
                 label: Text(btnSaveTitle),
                 onPressed: () {
-                  if (taskName.isEmpty) {
-                    final snackBar = SnackBar(
-                      content: Text(
-                          'Ummm... It seems that you are trying to add an invisible task which is not allowed in this realm.'),
-                      backgroundColor: taskColor,
-                    );
-                    Scaffold.of(context).showSnackBar(snackBar);
-                    // _scaffoldKey.currentState.showSnackBar(snackBar);
-                  } else {
-                    model.updateTask(
-                      Task(
-                        taskName,
-                        codePoint: taskIcon.codePoint,
-                        color: taskColor.value,
-                        id: widget.taskId,
-                      ),
-                    );
-                    Navigator.pop(context);
-                  }
+                  model.updateTask(
+                    Task(
+                      taskName,
+                      // codePoint: taskIcon.codePoint,
+                      codePoint: model.tasks.firstWhere((element) => element.id == widget.taskId).codePoint,
+                      color: taskColor.value,
+                      id: widget.taskId,
+                    ),
+                  );
+                  Navigator.pop(context);
                 },
               );
             },

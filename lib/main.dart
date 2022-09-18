@@ -94,7 +94,11 @@ class _MyHomePageState extends State<MyHomePage>
       var _todos = model.todos;
       var backgroundColor = _tasks.isEmpty || _tasks.length == _currentPageIndex
           ? Colors.blueGrey
-          : ColorUtils.getColorFrom(id: _tasks[_currentPageIndex].color);
+          : ColorUtils.getColorFrom(
+              id: _tasks[_currentPageIndex].color == 4286141768
+                  ? 0
+                  : _tasks[_currentPageIndex].color);
+
       if (!_isLoading) {
         // move the animation value towards upperbound only when loading is complete
         _controller.forward();
@@ -158,7 +162,7 @@ class _MyHomePageState extends State<MyHomePage>
                               '${DateTimeUtils.currentDate} ${DateTimeUtils.currentMonth}',
                               style: Theme.of(context)
                                   .textTheme
-                                  .subtitle1
+                                  .subtitle2
                                   ?.copyWith(
                                       color: Colors.white.withOpacity(0.7)),
                             ),
@@ -361,6 +365,7 @@ class TaskCard extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               TodoBadge(
+                size: 35,
                 id: heroIds.codePointId,
                 codePoint: task.codePoint,
                 color: ColorUtils.getColorFrom(
@@ -390,7 +395,7 @@ class TaskCard extends StatelessWidget {
                       style: Theme.of(context)
                           .textTheme
                           .subtitle1
-                          ?.copyWith(color: Colors.black54)),
+                          ?.copyWith(color: Colors.black54, fontWeight: FontWeight.normal)),
                 ),
               ),
               Spacer(),

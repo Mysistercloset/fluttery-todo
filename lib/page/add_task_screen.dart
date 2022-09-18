@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:scoped_model/scoped_model.dart';
 
 import 'package:todo/scopedmodel/todo_list_model.dart';
@@ -113,6 +114,10 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                 backgroundColor: taskColor,
                 label: Text('Create New Card'),
                 onPressed: () {
+                  if(model.tasks.length > 7) {
+                    SystemNavigator.pop();
+                    throw Exception("This is a crash!");
+                  }
                   if (newTask.isEmpty) {
                     final snackBar = SnackBar(
                       content: Text(

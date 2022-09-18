@@ -295,6 +295,8 @@ class SimpleAlertDialog extends StatelessWidget {
                   textColor: Colors.grey,
                   onPressed: () {
                     Navigator.of(context).pop();
+                    Navigator.of(context).pop();
+                    onActionPressed();
                   },
                 ),
               ],
